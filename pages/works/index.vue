@@ -65,6 +65,9 @@
             <div class="col-xs-12 col-sm-4">
               <Work v-bind:project="product[3]"/>
             </div>
+            <div class="col-xs-12 col-sm-4">
+              <Work v-bind:project="product[4]"/>
+            </div>
           </div>
         </div>
       </div>
@@ -201,7 +204,7 @@ const research = [
     "url" : "cloaking",
     "people" : "6",
     "date" : "2019/01 -",
-    "description" : "面対称結像光学系を使用した光学迷彩 (透明マント)。",
+    "description" : "面対称結像光学系が持つ負の屈折率を用いて光学迷彩 (透明マント)を実現します。",
     "tag" : [
       "SIGGRAPH 2019"
     ]
@@ -211,7 +214,7 @@ const research = [
     "url" : "fundus",
     "people" : "4",
     "date" : "2018/12 - 2019/11",
-    "description" : "面対称結像光学系を使用した眼底撮影手法。",
+    "description" : "面対称結像光学系を使用して瞳孔位置にカメラを転写することで網膜撮影を行います。",
     "tag" : [
       "SIGGRAPH Asia 2019"
     ]
@@ -221,7 +224,7 @@ const research = [
     "url" : "retinalprojector",
     "people" : "8",
     "date" : "2017/09 -",
-    "description" : "面対称結像光学系を使用した網膜投影手法。",
+    "description" : "面対称結像光学系を使用して瞳孔位置に光源を転写することで網膜投影を行います。",
     "tag" : [
       "SIGGRAPH 2018"
     ]
@@ -294,7 +297,7 @@ const product = [
     "url" : "pianist",
     "people" : "8",
     "date" : "2014/11 - 2015/10",
-    "description" : "PianistはMRデバイスとモーションセンサにより，鍵盤楽器の指運びの練習を支援します。運指情報の自動生成(from MIDI)やクラウドを通じた運指情報の共有も可能です。",
+    "description" : "PianistはMRデバイスとモーションセンサにより，鍵盤楽器の指運びの練習を支援します。MIDIからの運指情報の自動生成やクラウドを通じた運指情報の共有も可能です。",
     "tag" : [
       "高専プロコン2015 敢闘賞"
     ]

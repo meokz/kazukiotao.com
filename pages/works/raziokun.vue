@@ -20,12 +20,45 @@
         </a>
       </div>
       <div class="col-xs-12 col-sm-6">
-        <a class="thumbnail" href="/works/raziokun/img/img2.jpg">
-          <img class="work_img img-responsive" src="/works/raziokun/img/img2.jpg" >
+        <a class="thumbnail" href="/works/raziokun/img/img3.jpg">
+          <img class="work_img img-responsive" src="/works/raziokun/img/img3.jpg" >
         </a>
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <a class="thumbnail" href="/works/raziokun/img/img5.jpg">
+          <img class="work_img img-responsive" src="/works/raziokun/img/img5.jpg" >
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <a class="thumbnail" href="/works/raziokun/img/img4.jpg">
+          <img class="work_img img-responsive" src="/works/raziokun/img/img4.jpg" >
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <a class="thumbnail" href="/works/raziokun/img/img2.jpg">
+          <img class="work_img img-responsive" src="/works/raziokun/img/img2.jpg" >
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <a class="thumbnail" href="/works/raziokun/img/img6.jpg">
+          <img class="work_img img-responsive" src="/works/raziokun/img/img6.jpg" >
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <a class="thumbnail" href="/works/raziokun/img/img7.jpg">
+          <img class="work_img img-responsive" src="/works/raziokun/img/img7.jpg" >
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
