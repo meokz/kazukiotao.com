@@ -9,7 +9,7 @@ $ npm install
 
 serve with hot reload at localhost:3000
 ```sh
-$ npm run dev
+$ NODE_OPTIONS=--openssl-legacy-provider npm run dev
 ```
 
 generate static project
