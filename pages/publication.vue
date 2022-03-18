@@ -19,14 +19,18 @@
       <ol>
         <div v-show="!isEnglish">
           <ListItem v-bind:item="thesis_jp[0]" />
-          <p>平成30年度 筑波大学情報学群情報メディア創成学類 卒業論文（指導教官・落合陽一）</p>
+          <p>令和3年度 筑波大学大学院図書館情報メディア研究科 修士論文（指導教官・佐藤哲司）</p>
           <ListItem v-bind:item="thesis_jp[1]" />
+          <p>平成30年度 筑波大学情報学群情報メディア創成学類 卒業論文（指導教官・落合陽一）</p>
+          <ListItem v-bind:item="thesis_jp[2]" />
           <p>平成28年度 徳山高専情報電子工学科 卒業論文（指導教官・古賀崇了）</p>
         </div>
         <div v-show="isEnglish">
           <ListItem v-bind:item="thesis_en[0]" />
-          <p>Bachelor thesis in University of Tsukuba.（Advisor, Yoichi Ochiai）</p>
+          <p>Master thesis in University of Tsukuba.（Advisor, Tetsuji Sato）</p>
           <ListItem v-bind:item="thesis_en[1]" />
+          <p>Bachelor thesis in University of Tsukuba.（Advisor, Yoichi Ochiai）</p>
+          <ListItem v-bind:item="thesis_en[2]" />
           <p>Foundation thesis in National Institute of Technology, Tokuyama College.（Advisor, Takanori Koga）</p>
         </div>
       </ol>
@@ -115,6 +119,11 @@ const books_en = [
 
 const thesis_jp = [
   {
+    "id": 3,
+    "title" : "読みやすさと視覚的バランスを両立した改行・改頁位置の推定",
+    "url" : ""
+  },
+  {
     "id": 2,
     "title" : "Optical Design for See-Through Near-Eye Display using Dihedral Corner Reflector Array",
     "url" : "../works/airmountedeyepiece"
@@ -127,6 +136,11 @@ const thesis_jp = [
 ]
 
 const thesis_en = [
+  {
+    "id": 3,
+    "title" : "Detection of break positions for text considering both readability and visual balance",
+    "url" : ""
+  },
   {
     "id": 2,
     "title" : "Optical Design for See-Through Near-Eye Display using Dihedral Corner Reflector Array",
@@ -142,8 +156,9 @@ const thesis_en = [
 const international_papers = [
   {
     "title" : "<u>Kazuki Otao</u>, and Tetsuji Satoh. 2020. Text layout methods overlaid on images considering readability and balance. In <em>The 18th International Conference on Advances in Mobile Computing and Multimedia</em> (MoMM2020). ACM, New York, NY, USA, 5 pages. DOI: https://doi.org/10.1145/3428690.3429180",
-    "url" : "http://www.iiwas.org/conferences/iiwas2020/proceedings/momm-papers/index.html",
-    "acceptance_rate" : ""
+    "url" : "https://dl.acm.org/doi/abs/10.1145/3428690.3429180",
+    "acceptance_rate" : "",
+    "target" : "_blank"
   },
   {
     "title" : "<u>Kazuki Otao</u>, Yuta Itoh, Kazuki Takazawa, Hiroyuki Osone, and Yoichi Ochiai. 2018. Air Mounted Eyepiece: Optical See-Through HMD Design with Aerial Optical Functions. In <em>Proceedings of the 9th Augmented Human International Conference</em> (AH ’18). ACM, New York, NY, USA, Article 1, 7 pages. DOI: https://doi.org/10.1145/3174910.3174911",
@@ -204,6 +219,10 @@ const invited_talk = [
 ]
 
 const domestic = [
+  {
+    "title": "<u>大峠和基</u>, 佐藤哲司. 2022. 読みやすさと視覚的バランスを両立した改行・改頁位置の推定. 第13回データ工学と情報マネジメントに関するフォーラム.",
+    "url": ""
+  },
   {
     "title": "<u>大峠和基</u>, 大谷まゆ. 2020. バナー制作のための背景を考慮した自動テキスト配置. 人工知能学会全国大会論文集 第34回全国大会. 一般社団法人 人工知能学会.",
     "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_3Rin485/_article/-char/ja/"
