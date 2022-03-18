@@ -45,14 +45,14 @@ h4 {
 <script>
 const carrer = {
   "academic_jp": [
-    "2012/04 - 2017/03 　徳山工業高等専門学校 情報電子工学科 (古賀崇了研究室)",
-    "2017/04 - 2019/03 　筑波大学 情報学群 情報メディア創成学類 (落合陽一研究室)",
-    "2019/04 - present. 　筑波大学大学院 図書館情報メディア研究科 図書館情報メディア専攻 (佐藤哲司研究室)"
+    "2012/04 - 2017/03 　徳山工業高等専門学校 情報電子工学科 (指導教官: 古賀崇了)",
+    "2017/04 - 2019/03 　筑波大学 情報学群 情報メディア創成学類 (指導教官: 落合陽一)",
+    "2019/04 - 2022/03 　筑波大学大学院 図書館情報メディア研究科 図書館情報メディア専攻 (指導教官: 佐藤哲司)"
   ],
   "academic_en": [
     "2012/04 - 2017/03 　Department of Computer Science and Electronic Engineering, National Institute of Technology, Tokuyama College. (Takanori Koga, Soft Computing Lab.)",
     "2017/04 - 2019/03. 　College of Media Arts, Science and Technology, School of Informatics, University of Tsukuba (Yoichi Ochiai, Digital Nature Group.)",
-    "2017/04 - present. 　Graduate School of Library, Information and Media Studies, University of Tsukuba"
+    "2019/04 - 2022/03. 　Graduate School of Library, Information and Media Studies, University of Tsukuba (Tetsuji Sato, Content Engineering Lab.)"
   ],
   "work_jp": [
     "2017/09 - 2020/03 　ピクシーダストテクノロジーズ株式会社 リサーチエンジニア",

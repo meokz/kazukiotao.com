@@ -16,8 +16,8 @@ import ProjectDetail from '~/components/profile/ProjectDetail.vue'
 const projects = [
   {
     name: "telorain",
-    title_jp: "telorain: SNS向けテロップ自動生成アプリ",
-    title_en: "telorain: Automatic caption generation for videos",
+    title_jp: "Telorain: SNS向けテロップ自動生成アプリ",
+    title_en: "Telorain: Captioning App powered by Automatic Generation Algorithm",
     description_jp: "誰でも簡単にテロップを作ることができるiOSアプリを開発しました．開発したアプリでは，動画を選択するだけでテロップが自動で生成され，必要に応じてユーザが編集を加えることができます．",
     description_en: "We developed an iOS app with an automatic caption generation algorithm for entertainment movies.",
     tag: [
@@ -45,7 +45,7 @@ const projects = [
   {
     name: "smartmakura",
     title_jp: "Smart枕",
-    title_en: "Smart Makura: Pillow Type Device for Sensing and Intervening User's Sleep",
+    title_en: "Smart Makura: Pillow Device for Sensing and Intervening User's Sleep",
     description_jp: "Smart枕はAndroid端末と枕型デバイスが連携する新しいライフハックプロダクトです。枕型デバイスに組み込まれた圧力センサとバイブレーションを用いてユーザを確実に起こすとともに，睡眠情報を記録し，最適な睡眠時間を教えてくれます。",
     description_en: "We developed a pillow device consisting of sensors and vibrators. The pillow is connected with the Android application to records sleep and wakes up users.",
     tag: [
