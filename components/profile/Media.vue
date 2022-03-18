@@ -2,25 +2,29 @@
   <div class="media">
     <h2>Media</h2>
     <div>
-      <!-- <h3>Radio</h3>
+      <h3>TV</h3>
       <ol>
-        <MediaItem v-for="item in radio" v-bind:key="item.id" v-bind:item="item" />
-      </ol> -->
+        <MediaItem v-for="item in tv_personal" v-bind:key="item.id" v-bind:item="item" />
+      </ol>
       <h3>Web</h3>
       <ol>
         <MediaItem v-for="item in web_personal" v-bind:key="item.id" v-bind:item="item" />
+      </ol>
+      <h3>TV (Project)</h3>
+      <ol>
+        <MediaItem v-for="item in tv_project" v-bind:key="item.id" v-bind:item="item" />
       </ol>
       <h3>Web (Project)</h3>
       <ol>
         <MediaItem v-for="item in web" v-bind:key="item.id" v-bind:item="item" />
       </ol>
+      <h3>Radio</h3>
+      <ol>
+        <MediaItem v-for="item in radio" v-bind:key="item.id" v-bind:item="item" />
+      </ol>
       <h3>Web Radio</h3>
       <ol>
         <MediaItem v-for="item in webradio" v-bind:key="item.id" v-bind:item="item" />
-      </ol>
-      <h3>TV</h3>
-      <ol>
-        <MediaItem v-for="item in tv_project" v-bind:key="item.id" v-bind:item="item" />
       </ol>
     </div>
   </div>
@@ -105,6 +109,16 @@ const web_personal = [
     "url" : "https://magazine.mast.tsukuba.ac.jp/archives/3828",
     "media_name" : "MAST Web",
     "date" : "2019.01.29"
+  }
+]
+
+const tv_personal = [
+  {
+    "id": 1,
+    "title" : "Newsモーニングサテライト",
+    "url" : "https://www.tv-tokyo.co.jp/nms/",
+    "media_name" : "テレビ東京",
+    "date" : "2022.02.08"
   }
 ]
 
@@ -215,6 +229,7 @@ export default {
       webradio: webradio,
       web_personal: web_personal,
       web: web,
+      tv_personal: tv_personal,
       tv_project: tv_project
     }
   }
