@@ -1,6 +1,6 @@
 <template>
   <div class="interview">
-    <h2>Interview</h2>
+    <h2>Interviews</h2>
     <div class="row">
       <InterviewItem v-for="item in interviews" v-bind:key="item.id" v-bind:item="item" />
     </div>

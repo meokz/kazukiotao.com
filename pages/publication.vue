@@ -6,7 +6,7 @@
       </div>
     </div>
 
-    <h2>Publication</h2>
+    <h2>Publications</h2>
     <div>
       <h3 v-show="!isEnglish">書籍</h3>
       <h3 v-show="isEnglish">Book</h3>

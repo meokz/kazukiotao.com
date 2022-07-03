@@ -1,6 +1,6 @@
 <template>
   <div class="exhibition">
-    <h2>Exhibition</h2>
+    <h2>Exhibitions</h2>
     <div>
       <ol>
         <Project v-for="exhibition in exhibitions" v-bind:key="exhibition.title" v-bind:project="exhibition"/>

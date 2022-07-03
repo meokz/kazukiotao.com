@@ -1,6 +1,6 @@
 <template>
   <div class="achievement">
-    <h2>Achievement</h2>
+    <h2>Achievements</h2>
     <div>
       <div>
         <h3 v-show="!isEnglish">顕著な業績</h3>

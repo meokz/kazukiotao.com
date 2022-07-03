@@ -1,6 +1,6 @@
 <template>
   <div class="carrer">
-    <h2>Carrer</h2>
+    <h2>Carrers</h2>
     <div v-show="!isEnglish">
       <h4>職歴</h4>
       <ul>

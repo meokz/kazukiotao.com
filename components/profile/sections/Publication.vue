@@ -1,6 +1,6 @@
 <template>
   <div class="publication">
-    <h2>Publication</h2>
+    <h2>Publications</h2>
     <div>
       <div>
         <h3 v-show="!isEnglish">書籍</h3>
