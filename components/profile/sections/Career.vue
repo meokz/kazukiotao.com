@@ -2,13 +2,13 @@
   <div class="carrer">
     <h2>Carrer</h2>
     <div v-show="!isEnglish">
-      <h4>学歴</h4>
-      <ul>
-        <li v-for="item in carrer.academic_jp" v-bind:key="item">{{ item }}</li>
-      </ul>
       <h4>職歴</h4>
       <ul>
         <li v-for="item in carrer.work_jp" v-bind:key="item">{{ item }}</li>
+      </ul>
+      <h4>学歴</h4>
+      <ul>
+        <li v-for="item in carrer.academic_jp" v-bind:key="item">{{ item }}</li>
       </ul>
       <h4>インターン</h4>
       <ul>
@@ -17,13 +17,13 @@
     </div>
 
     <div v-show="isEnglish">
-      <h4>Academic Background</h4>
-      <ul>
-        <li v-for="item in carrer.academic_en" v-bind:key="item">{{ item }}</li>
-      </ul>
       <h4>Work Experience</h4>
       <ul>
         <li v-for="item in carrer.work_en" v-bind:key="item">{{ item }}</li>
+      </ul>
+      <h4>Academic Background</h4>
+      <ul>
+        <li v-for="item in carrer.academic_en" v-bind:key="item">{{ item }}</li>
       </ul>
       <h4>Intern</h4>
       <ul>
@@ -57,19 +57,21 @@ const carrer = {
   "work_jp": [
     "2017/09 - 2020/03 　ピクシーダストテクノロジーズ株式会社 リサーチエンジニア",
     "2020/04 - 2021/01 　株式会社ランドスケイプ 社外CTO",
-    "2020/04 - present. 　Telorain株式会社 代表取締役"
+    "2020/04 - present. 　Telorain株式会社 代表取締役",
+    "2022/04 - present. 　株式会社メルカリ ソフトウェアエンジニア",
   ],
   "work_en": [
     "2017/09 - 2020/03 　Pixie Dust Technologies, Inc. Research Enginner",
-    "2020/04 - present. 　Telorain Inc. CEO & Founder"
+    "2020/04 - present. 　Telorain Inc. CEO & Founder",
+    "2022/04 - present. 　Mercari Inc. Software Enginner",
   ],
   "intern_jp": [
-    "2015/08 - 2015/09 　チームラボ株式会社 インタラクティブチーム",
-    "2019/12 - 2020/01 　株式会社サイバーエージェント AILab",
+    "2015/08 - 2015/09 　チームラボ株式会社 インタラクティブチーム エンジニア",
+    "2019/12 - 2020/01 　株式会社サイバーエージェント AILab リサーチエンジニア",
   ],
   "intern_en": [
-    "2015/08 - 2015/09 　teamLab Inc. Interactive Team",
-    "2019/12 - 2020/01 　CyberAgent, Inc. AILab",
+    "2015/08 - 2015/09 　teamLab Inc. Interactive Team, Enginner",
+    "2019/12 - 2020/01 　CyberAgent, Inc. AILab, Research Enginner",
   ]
 }
 
