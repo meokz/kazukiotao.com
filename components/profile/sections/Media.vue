@@ -1,5 +1,6 @@
 <template>
   <div class="media">
+    <a id="media"></a>
     <h2>Media</h2>
     <div>
       <h3>TV</h3>

@@ -9,6 +9,8 @@
 
     <Profile v-bind:isEnglish="isEnglish"/>
 
+    <Interview v-bind:isEnglish="isEnglish"/>
+
     <Projects v-bind:isEnglish="isEnglish"/>
 
     <Career v-bind:isEnglish="isEnglish"/>
@@ -70,6 +72,7 @@ import Exhibition from '~/components/profile/sections/Exhibition.vue'
 import Achievement from '~/components/profile/sections/Achievement.vue'
 import Media from '~/components/profile/sections/Media.vue'
 import TechnicalSkills from '~/components/profile/sections/TechnicalSkills.vue'
+import Interview from '~/components/profile/sections/Interview.vue'
 
 export default {
   head () {
@@ -89,7 +92,8 @@ export default {
     Exhibition,
     Achievement,
     Media,
-    TechnicalSkills
+    TechnicalSkills,
+    Interview
   },
   data() {
     return {
