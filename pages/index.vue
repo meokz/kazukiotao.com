@@ -11,11 +11,11 @@
 
     <Interview v-bind:isEnglish="isEnglish"/>
 
-    <Projects v-bind:isEnglish="isEnglish"/>
+    <Link />
+
+    <!-- <Projects v-bind:isEnglish="isEnglish"/> -->
 
     <Career v-bind:isEnglish="isEnglish"/>
-
-    <Link />
 
     <Publication v-bind:isEnglish="isEnglish"/>
 
