@@ -19,7 +19,7 @@
 
 <style scoped>
 .all {
-  padding: 1.0rem 1.5rem;
+  padding: 1.0rem 2.0rem;
 }
 
 
