@@ -23,8 +23,8 @@
           <Project v-for="poster in posters" v-bind:key="poster.title" v-bind:project="poster"/>
         </ol>
       </div>
-      <p v-show="!isEnglish" align="right"><a href="./publication">{{detail}} 全ての出版一覧</a></p>
-      <p v-show="isEnglish" align="right"><a href="./publication">{{detail}} All Publication</a></p>
+      <p v-show="!isEnglish" align="right"><a href="./publication">{{detail}} 全ての出版</a></p>
+      <p v-show="isEnglish" align="right"><a href="./publication">{{detail}} All Publications</a></p>
     </div>
   </div>
 </template>
