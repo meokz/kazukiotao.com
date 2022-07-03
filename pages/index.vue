@@ -61,15 +61,15 @@ ul { list-style:none; }
 
 <script>
 import LanguageButton from '~/components/LanguageButton.vue'
-import Profile from '~/components/profile/Profile.vue'
-import Projects from '~/components/profile/Projects.vue'
-import Career from '~/components/profile/Career.vue'
-import Link from '~/components/profile/Link.vue'
-import Publication from '~/components/profile/Publication.vue'
-import Exhibition from '~/components/profile/Exhibition.vue'
-import Achievement from '~/components/profile/Achievement.vue'
-import Media from '~/components/profile/Media.vue'
-import TechnicalSkills from '~/components/profile/TechnicalSkills.vue'
+import Profile from '~/components/profile/sections/Profile.vue'
+import Projects from '~/components/profile/sections/Projects.vue'
+import Career from '~/components/profile/sections/Career.vue'
+import Link from '~/components/profile/sections/Link.vue'
+import Publication from '~/components/profile/sections/Publication.vue'
+import Exhibition from '~/components/profile/sections/Exhibition.vue'
+import Achievement from '~/components/profile/sections/Achievement.vue'
+import Media from '~/components/profile/sections/Media.vue'
+import TechnicalSkills from '~/components/profile/sections/TechnicalSkills.vue'
 
 export default {
   head () {

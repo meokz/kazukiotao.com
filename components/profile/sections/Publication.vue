@@ -36,7 +36,7 @@ h3 {
 </style>
 
 <script>
-import Project from '~/components/profile/Project.vue'
+import Project from '~/components/profile/ProjectItem.vue'
 
 const books = [
   {

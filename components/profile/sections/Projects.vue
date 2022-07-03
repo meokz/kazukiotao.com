@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import ProjectDetail from '~/components/profile/ProjectDetail.vue'
+import ProjectDetail from '~/components/profile/ProjectDetailItem.vue'
 
 const projects = [
   {

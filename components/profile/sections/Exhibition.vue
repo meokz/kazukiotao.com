@@ -6,7 +6,7 @@
         <Project v-for="exhibition in exhibitions" v-bind:key="exhibition.title" v-bind:project="exhibition"/>
       </ol>
     </div>
-  </div> 
+  </div>
 </template>
 
 <style>
@@ -14,14 +14,14 @@
 </style>
 
 <script>
-import Project from '~/components/profile/Project.vue'
+import Project from '~/components/profile/ProjectItem.vue'
 
 const exhibitions = [
   {
     title: "<p>Shinnosuke Ando, <u>Kazuki Otao</u>, Kazuki Takazawa, Yoichi Ochiai. 2018.</p><p><u>Glass beads display</u></p><p>Media Ambition Tokyo, Roppongi Hills, Tokyo. 2018.2.9-25</p>",
     url: "http://mediaambitiontokyo.jp/glassbeadsdisplay/",
     image_url: "glassbeads.jpg",
-  }, 
+  },
   {
     title: "<p>森篤史, <u>大峠和基</u>. 2017.</p><p><u>ピタゴラメーカー</u></p><p>「俺のピタゴラ」展, 茨城. 2017.12.16-17</p>",
     url: "https://digitalcontents2017.github.io/",
@@ -47,7 +47,7 @@ const exhibitions = [
 export default {
   components: {
     Project
-  }, 
+  },
   data() {
     return {
       exhibitions: exhibitions
