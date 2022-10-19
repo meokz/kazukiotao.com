@@ -32,8 +32,8 @@
 import Carousel from '~/components/profile/Carousel.vue'
 
 const profile = {
-  jp: "1996年広島生まれ．筑波大学大学院卒．学生時代からリサーチエンジニアとしてスタートアップ企業の研究論文の執筆と特許の出願に関わる．その後、YouTube向け動画を自動生成するAIを開発しサービス化して起業．それらの業績が評価され、経済産業省所轄の情報処理推進機構より，未踏事業スーパクリエータ認定及び未踏アドバンスド事業イノベータ認定を受ける．現在は月間ユーザ2000万人のフリマサービスのユーザーグロースにソフトウェアエンジニアとして携わっている．趣味は語学勉強（英語）．",
-  en: 'Kazuki Otao was born in Hiroshima in 1996. He graduated from University of Tsukuba. He has been working in publishing research papers and patents for startup companies since his student days. As a student, he developed an AI that automatically generates videos for YouTube, and started a start-up company. For these achievements, he was certified as a "Super Creator" and "Innovator" by the IPA under the Ministry of Economy, Trade and Industry (METI). Currently, he is involved in the user growth of a C to C market service with 20 million MAUs as a software engineer. His hobby is studying English.'
+  jp: "1996年広島生まれ．筑波大学大学院卒．学生時代からリサーチエンジニアとしてスタートアップ企業の研究論文の執筆と特許の出願に関わる．その後、YouTube向け動画を自動生成するAIを開発しサービス化して起業．それらの業績が評価され、経済産業省所轄の情報処理推進機構より，未踏事業スーパクリエータ認定及び未踏アドバンスド事業イノベータ認定を受ける．現在はフリマアプリのユーザーグロースにソフトウェアエンジニアとして携わっている．",
+  en: 'Kazuki Otao was born in Hiroshima in 1996. He graduated from University of Tsukuba. He has been working in publishing research papers and patents for startup companies since his student days. As a student, he developed an AI that automatically generates videos for YouTube, and started a start-up company. For these achievements, he was certified as a "Super Creator" and "Innovator" by the IPA under the Ministry of Economy, Trade and Industry (METI). Currently, he is involved in the user growth of a C to C market service as a software engineer.'
 }
 
 export default {
