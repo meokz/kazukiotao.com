@@ -7,10 +7,10 @@
       <ul>
         <li v-for="item in carrer.work_jp" v-bind:key="item">{{ item }}</li>
       </ul>
-      <h4>個人事業主</h4>
+      <!-- <h4>個人事業主</h4>
       <ul>
         <li v-for="item in carrer.sidejob_jp" v-bind:key="item">{{ item }}</li>
-      </ul>
+      </ul> -->
       <h4>インターン</h4>
       <ul>
         <li v-for="item in carrer.intern_jp" v-bind:key="item">{{ item }}</li>
@@ -71,7 +71,7 @@ const carrer = {
     "2019/04 - 2022/03. 　Graduate School of Library, Information and Media Studies, University of Tsukuba (Tetsuji Sato, Content Engineering Lab.)"
   ],
   "work_jp": [
-    "2022/04 - present. 　株式会社メルカリ ソフトウェアエンジニア",
+    "2022/04 - 2022/12 　株式会社メルカリ ソフトウェアエンジニア",
     "2020/04 - 2022/03 　Telorain株式会社 代表取締役",
     "2017/09 - 2020/03 　ピクシーダストテクノロジーズ株式会社 リサーチエンジニア",
   ],
@@ -80,7 +80,7 @@ const carrer = {
   ],
   "sidejob_en": [],
   "work_en": [
-    "2022/04 - present. 　Mercari Inc. Software Engineer",
+    "2022/04 - 2022/12 　Mercari Inc. Software Engineer",
     "2020/04 - 2022/03 　Telorain Inc. CEO & Founder",
     "2017/09 - 2020/03 　Pixie Dust Technologies, Inc. Research Engineer",
   ],
