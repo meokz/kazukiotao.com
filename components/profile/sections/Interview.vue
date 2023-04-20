@@ -19,6 +19,15 @@ import InterviewItem from '~/components/profile/InterviewItem.vue'
 const interviews = [
   {
     "id": 1,
+    "media": "Cloudbase | note",
+    "media_icon": "https://note.com/favicon.ico",
+    "title" : "夢は小説家！？未踏スーパークリエイタが起業を経てCloudbaseに転職した理由",
+    "url" : "https://note.com/cloudbase/n/n8480e454d1cf",
+    "image_url" : "https://assets.st-note.com/production/uploads/images/103237851/rectangle_large_type_2_e250195c441ae2165de61f6cf5f3cade.png?width=2000&height=2000&fit=bounds&quality=85",
+    "date" : "2020.07.28"
+  },
+  {
+    "id": 2,
     "media": "アンドエンジニア",
     "media_icon": "https://and-engineer.com/favicon.png",
     "title" : "その機能って本当に使うの？」落合陽一の弟子、高専出身の未踏エンジニアが見せるプロダクトへのこだわり。",
@@ -27,7 +36,7 @@ const interviews = [
     "date" : "2020.07.28"
   },
   {
-    "id": 2,
+    "id": 3,
     "media": "キャリアハック（CAREER HACK）",
     "media_icon": "https://careerhack.en-japan.com/favicon.ico",
     "title" : "初心者でもYouTube風「テロップ」を簡単に。世界一やさしい動画編集アプリ誕生秘話",
@@ -36,7 +45,7 @@ const interviews = [
     "date" : "2020.06.23"
   },
   {
-    "id": 3,
+    "id": 4,
     "media": "FINDERS",
     "media_icon": "https://finders.me/files/site/8ec20f6d2196d404357f43920b982daa_l.ico",
     "title" : "落合陽一の筑波大「デジタルネイチャー研究室」に潜入！人もお金も集まるイノベーションの源泉とは？",

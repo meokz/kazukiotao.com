@@ -4,7 +4,7 @@
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
     </ol>
 
     <!-- Wrapper for slides -->
@@ -13,11 +13,11 @@
         <img src="/profile/portrait/img07.jpg">
       </div>
       <div class="item">
-        <img src="/profile/portrait/img03.jpg">
+        <img src="/profile/portrait/icon01.png">
       </div>
-      <div class="item">
+      <!-- <div class="item">
         <img src="/profile/portrait/img05.jpg">
-      </div>
+      </div> -->
     </div>
 
     <!-- Controls -->

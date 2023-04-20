@@ -71,6 +71,7 @@ const carrer = {
     "2019/04 - 2022/03. 　Graduate School of Library, Information and Media Studies, University of Tsukuba (Tetsuji Sato, Content Engineering Lab.)"
   ],
   "work_jp": [
+    "2023/01 - present. 　Cloudbase株式会社",
     "2022/04 - 2022/12 　株式会社メルカリ ソフトウェアエンジニア",
     "2020/04 - 2022/03 　Telorain株式会社 代表取締役",
     "2017/09 - 2020/03 　ピクシーダストテクノロジーズ株式会社 リサーチエンジニア",
@@ -80,6 +81,7 @@ const carrer = {
   ],
   "sidejob_en": [],
   "work_en": [
+    "2023/01 - present. 　Cloudbase Inc.",
     "2022/04 - 2022/12 　Mercari Inc. Software Engineer",
     "2020/04 - 2022/03 　Telorain Inc. CEO & Founder",
     "2017/09 - 2020/03 　Pixie Dust Technologies, Inc. Research Engineer",
