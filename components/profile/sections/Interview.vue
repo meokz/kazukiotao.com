@@ -24,7 +24,7 @@ const interviews = [
     "title" : "夢は小説家！？未踏スーパークリエイタが起業を経てCloudbaseに転職した理由",
     "url" : "https://note.com/cloudbase/n/n8480e454d1cf",
     "image_url" : "https://assets.st-note.com/production/uploads/images/103237851/rectangle_large_type_2_e250195c441ae2165de61f6cf5f3cade.png?width=2000&height=2000&fit=bounds&quality=85",
-    "date" : "2020.07.28"
+    "date" : "2023.04.20"
   },
   {
     "id": 2,
