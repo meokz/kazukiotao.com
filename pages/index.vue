@@ -17,15 +17,21 @@
 
     <Career v-bind:isEnglish="isEnglish"/>
 
-    <Publication v-bind:isEnglish="isEnglish"/>
-
     <Achievement v-bind:isEnglish="isEnglish"/>
 
-    <Exhibition />
+    <Event />
 
     <Media />
 
-    <TechnicalSkills />
+    <Publication v-bind:isEnglish="isEnglish"/>
+
+    <Competitions v-bind:isEnglish="isEnglish"/>
+
+    <Exhibition />
+
+    <Qualification />
+
+    <!-- <TechnicalSkills /> -->
 
   </div>
 </template>
@@ -69,10 +75,13 @@ import Career from '~/components/profile/sections/Career.vue'
 import Link from '~/components/profile/sections/Link.vue'
 import Publication from '~/components/profile/sections/Publication.vue'
 import Exhibition from '~/components/profile/sections/Exhibition.vue'
-import Achievement from '~/components/profile/sections/Achievement.vue'
+import Competitions from '~/components/profile/sections/Competitions.vue'
 import Media from '~/components/profile/sections/Media.vue'
 import TechnicalSkills from '~/components/profile/sections/TechnicalSkills.vue'
 import Interview from '~/components/profile/sections/Interview.vue'
+import Event from '~/components/profile/sections/Event.vue'
+import Qualification from '~/components/profile/sections/Qualification.vue'
+import Achievement from '~/components/profile/sections/Achievement.vue'
 
 export default {
   head () {
@@ -90,10 +99,13 @@ export default {
     Link,
     Publication,
     Exhibition,
-    Achievement,
+    Competitions,
     Media,
     TechnicalSkills,
-    Interview
+    Interview,
+    Event,
+    Qualification,
+    Achievement,
   },
   data() {
     return {

@@ -3,7 +3,7 @@
     <h2>Carrers</h2>
     <div v-show="!isEnglish">
       <h3>職歴</h3>
-      <h4>フルタイム</h4>
+      <!-- <h4>フルタイム</h4> -->
       <ul>
         <li v-for="item in carrer.work_jp" v-bind:key="item">{{ item }}</li>
       </ul>
@@ -11,10 +11,10 @@
       <ul>
         <li v-for="item in carrer.sidejob_jp" v-bind:key="item">{{ item }}</li>
       </ul> -->
-      <h4>インターン</h4>
+      <!-- <h4>インターン</h4>
       <ul>
         <li v-for="item in carrer.intern_jp" v-bind:key="item">{{ item }}</li>
-      </ul>
+      </ul> -->
       <h3>学歴</h3>
       <ul>
         <li v-for="item in carrer.academic_jp" v-bind:key="item">{{ item }}</li>

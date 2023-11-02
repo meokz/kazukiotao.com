@@ -27,9 +27,24 @@
       <ol>
         <MediaItem v-for="item in webradio" v-bind:key="item.id" v-bind:item="item" />
       </ol>
+      <h3>Web (Other)</h3>
+      <ol>
+        <MediaItem v-for="item in other" v-bind:key="item.id" v-bind:item="item" />
+      </ol>
     </div>
   </div>
 </template>
+
+<style scoped>
+h3 {
+  padding-left: 5%;
+}
+
+ol {
+  padding-left: 7rem;
+  padding-right: 1rem;
+}
+</style>
 
 <script>
 import MediaItem from '~/components/profile/MediaItem.vue'
@@ -83,6 +98,13 @@ const webradio = [
 ]
 
 const web_personal = [
+{
+    "id": 5,
+    "title" : "「夢は小説家！？未踏スーパークリエイタが起業を経てCloudbaseに転職した理由",
+    "url" : "https://note.com/cloudbase/n/n8480e454d1cf",
+    "media_name" : "Cloudbase | note",
+    "date" : "2023.04.20"
+  },
   {
     "id": 4,
     "title" : "「その機能って本当に使うの？」落合陽一の弟子、高専出身の未踏エンジニアが見せるプロダクトへのこだわり。",
@@ -220,6 +242,16 @@ const web = [
   }
 ]
 
+const other = [
+  {
+    "id": 1,
+    "title" : "みんな知ってる「Zoomの橋」じゃん！アメリカで「いつもの背景」を探したらバーチャルとリアルが“完全に一致”した",
+    "url" : "https://www.buzzfeed.com/jp/harunayamazaki/zoom-bridge",
+    "media_name" : "BuzzFeed",
+    "date" : "2023.06.21"
+  }
+]
+
 export default {
   components: {
     MediaItem
@@ -231,7 +263,8 @@ export default {
       web_personal: web_personal,
       web: web,
       tv_personal: tv_personal,
-      tv_project: tv_project
+      tv_project: tv_project,
+      other: other,
     }
   }
 }
