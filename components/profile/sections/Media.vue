@@ -99,6 +99,13 @@ const webradio = [
 
 const web_personal = [
 {
+    "id": 6,
+    "title" : "このPdMがすごい！【第2弾】──時代をつくるエースPdMと、エースを束ねるトップ層のマネジメントに迫る",
+    "url" : "https://www.fastgrow.jp/articles/product-managers-02",
+    "media_name" : "FastGrow",
+    "date" : "2024.09.05"
+  },
+{
     "id": 5,
     "title" : "「夢は小説家！？未踏スーパークリエイタが起業を経てCloudbaseに転職した理由",
     "url" : "https://note.com/cloudbase/n/n8480e454d1cf",
@@ -156,6 +163,13 @@ const tv_project = [
 ]
 
 const web = [
+{
+    "id": 13,
+    "title" : "【トレンド研究】大企業の8割が導入するパブリッククラウド。その裏に眠る巨大市場・クラウドセキュリティとは",
+    "url" : "https://www.fastgrow.jp/articles/cloud-security",
+    "media_name" : "FastGlow",
+    "date" : "2024.05.16"
+  },
   {
     "id": 12,
     "title" : "筑波大学とピクシーダストテクノロジーズ株式会社、どの位置から見ても鮮明な空中画像を提供できるガラスビーズを用いた空中映像投影手法を発表",

@@ -7,13 +7,13 @@
       <ol>
         <EventItem v-for="item in talks" v-bind:key="item.id" v-bind:item="item" />
       </ol>
-      <h3>Judge - 審査委員</h3>
-      <ol>
-        <EventItem v-for="item in judge" v-bind:key="item.id" v-bind:item="item" />
-      </ol>
       <h3>Presentation - 登壇発表</h3>
       <ol>
         <MediaItem v-for="item in presentations" v-bind:key="item.id" v-bind:item="item" />
+      </ol>
+      <h3>Judge - 審査委員</h3>
+      <ol>
+        <EventItem v-for="item in judge" v-bind:key="item.id" v-bind:item="item" />
       </ol>
     </div>
   </div>
@@ -50,6 +50,18 @@ const talks = [
 ]
 
 const judge = [
+{
+    "id": 4,
+    "title" : "技育展2024 予選大会第2回戦",
+    "url" : "https://talent.supporterz.jp/geekten/2024/",
+    "date" : "2024.10.12"
+  },
+  {
+    "id": 3,
+    "title" : "ひろしまQuest NEO (広島版未踏)",
+    "url" : "https://signate.jp/competitions/1199",
+    "date" : "2023.11.28"
+  },
 {
     "id": 2,
     "title" : "技育展2023 ブロック予選",
