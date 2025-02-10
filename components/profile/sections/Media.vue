@@ -99,6 +99,13 @@ const webradio = [
 
 const web_personal = [
 {
+    "id": 7,
+    "title" : "エンジニアが選んだもう一つのキャリア：PMという道のリアル",
+    "url" : "https://techtrain.dev/media/articles/6zk9lhi6c",
+    "media_name" : "TechTrain",
+    "date" : "2025.01.14"
+},
+{
     "id": 6,
     "title" : "このPdMがすごい！【第2弾】──時代をつくるエースPdMと、エースを束ねるトップ層のマネジメントに迫る",
     "url" : "https://www.fastgrow.jp/articles/product-managers-02",

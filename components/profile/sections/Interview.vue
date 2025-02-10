@@ -18,7 +18,16 @@ import InterviewItem from '~/components/profile/InterviewItem.vue'
 
 const interviews = [
   {
-    "id": 1,
+    "id": 5,
+    "media": "TechTrain",
+    "media_icon": "https://techtrain.dev/favicon.ico",
+    "title" : "エンジニアが選んだもう一つのキャリア：PMという道のリアル",
+    "url" : "https://techtrain.dev/media/articles/6zk9lhi6c",
+    "image_url" : "https://techtrain.dev/_next/image?url=https%3A%2F%2Fimages.microcms-assets.io%2Fassets%2Fbd8c4afb4ee8466a9989c560ceea8669%2Fc594a83bf8b145468ce49bc2b3a7ea41%2FPM%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%2592%25E3%2582%2599%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%258F%25E3%2582%2599%25E3%2583%258A%25E3%2583%25BC.png&w=1920&q=75",
+    "date" : "2025.01.14"
+  },
+  {
+    "id": 4,
     "media": "Cloudbase | note",
     "media_icon": "https://note.com/favicon.ico",
     "title" : "夢は小説家！？未踏スーパークリエイタが起業を経てCloudbaseに転職した理由",
@@ -27,7 +36,7 @@ const interviews = [
     "date" : "2023.04.20"
   },
   {
-    "id": 2,
+    "id": 3,
     "media": "アンドエンジニア",
     "media_icon": "https://and-engineer.com/favicon.png",
     "title" : "その機能って本当に使うの？」落合陽一の弟子、高専出身の未踏エンジニアが見せるプロダクトへのこだわり。",
@@ -36,7 +45,7 @@ const interviews = [
     "date" : "2020.07.28"
   },
   {
-    "id": 3,
+    "id": 2,
     "media": "キャリアハック（CAREER HACK）",
     "media_icon": "https://careerhack.en-japan.com/favicon.ico",
     "title" : "初心者でもYouTube風「テロップ」を簡単に。世界一やさしい動画編集アプリ誕生秘話",
@@ -45,7 +54,7 @@ const interviews = [
     "date" : "2020.06.23"
   },
   {
-    "id": 4,
+    "id": 1,
     "media": "FINDERS",
     "media_icon": "https://finders.me/files/site/8ec20f6d2196d404357f43920b982daa_l.ico",
     "title" : "落合陽一の筑波大「デジタルネイチャー研究室」に潜入！人もお金も集まるイノベーションの源泉とは？",
