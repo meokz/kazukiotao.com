@@ -99,6 +99,13 @@ const webradio = [
 
 const web_personal = [
 {
+    "id": 8,
+    "title" : "セキュリティ業界の革新を目指す 28 歳の若者 ～ Cloudbase PdM 大峠 和基",
+    "url" : "https://scan.netsecurity.ne.jp/article/2025/02/26/52396.html",
+    "media_name" : "ScanNetSecurity",
+    "date" : "2025.02.26"
+},
+{
     "id": 7,
     "title" : "エンジニアが選んだもう一つのキャリア：PMという道のリアル",
     "url" : "https://techtrain.dev/media/articles/6zk9lhi6c",
