@@ -35,6 +35,12 @@ import EventItem from '~/components/profile/EventItem.vue'
 import MediaItem from '~/components/profile/MediaItem.vue'
 
 const talks = [
+   {
+    "id": 3,
+    "title" : "『ASM×CNAPPで実現する、セキュリティ対策の最適解』, サイバーインテリジェンス　セキュリティマネジメントSummit 2025 Summer",
+    "url" : "https://events.nikkeibp.co.jp/event/2025/nxt0625se/",
+    "date" : "2025.06.26"
+  },
   {
     "id": 2,
     "title" : "言語カクテルとエンジニアの人生に触れる夜〜エンジニアからPMへの道のり〜",

@@ -98,26 +98,47 @@ const webradio = [
 ]
 
 const web_personal = [
+  {
+    "id": 11,
+    "title" : "「オンプレ規定をクラウドに適用」はもうやめませんか　「実行責任」「説明責任」を押さえた“正しい運用”のポイント　識者に聞く",
+    "url" : "https://www.itmedia.co.jp/news/articles/2506/04/news001.html",
+    "media_name" : "ITmedia NEWS",
+    "date" : "2025.06.06"
+},
+  {
+    "id": 10,
+    "title" : "1つの「うっかりミス」ですべてを失う 最小工数で誰もがクラウドのリスク対処を可能にする方法",
+    "url" : "https://special.nikkeibp.co.jp/atclh/NXT/25/cloudbase0516/",
+    "media_name" : "日経クロステック Special",
+    "date" : "2025.05.28"
+},
 {
-    "id": 8,
+    "id": 9,
     "title" : "セキュリティ業界の革新を目指す 28 歳の若者 ～ Cloudbase PdM 大峠 和基",
     "url" : "https://scan.netsecurity.ne.jp/article/2025/02/26/52396.html",
     "media_name" : "ScanNetSecurity",
     "date" : "2025.02.26"
 },
 {
-    "id": 7,
+    "id": 8,
     "title" : "エンジニアが選んだもう一つのキャリア：PMという道のリアル",
     "url" : "https://techtrain.dev/media/articles/6zk9lhi6c",
     "media_name" : "TechTrain",
     "date" : "2025.01.14"
 },
 {
-    "id": 6,
+    "id": 7,
     "title" : "このPdMがすごい！【第2弾】──時代をつくるエースPdMと、エースを束ねるトップ層のマネジメントに迫る",
     "url" : "https://www.fastgrow.jp/articles/product-managers-02",
     "media_name" : "FastGrow",
     "date" : "2024.09.05"
+  },
+{
+    "id": 6,
+    "title" : "【トレンド研究】大企業の8割が導入するパブリッククラウド。その裏に眠る巨大市場・クラウドセキュリティとは",
+    "url" : "https://www.fastgrow.jp/articles/cloud-security",
+    "media_name" : "FastGlow",
+    "date" : "2024.05.16"
   },
 {
     "id": 5,
@@ -177,13 +198,6 @@ const tv_project = [
 ]
 
 const web = [
-{
-    "id": 13,
-    "title" : "【トレンド研究】大企業の8割が導入するパブリッククラウド。その裏に眠る巨大市場・クラウドセキュリティとは",
-    "url" : "https://www.fastgrow.jp/articles/cloud-security",
-    "media_name" : "FastGlow",
-    "date" : "2024.05.16"
-  },
   {
     "id": 12,
     "title" : "筑波大学とピクシーダストテクノロジーズ株式会社、どの位置から見ても鮮明な空中画像を提供できるガラスビーズを用いた空中映像投影手法を発表",
