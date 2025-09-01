@@ -35,12 +35,6 @@ import EventItem from '~/components/profile/EventItem.vue'
 import MediaItem from '~/components/profile/MediaItem.vue'
 
 const talks = [
-   {
-    "id": 3,
-    "title" : "『ASM×CNAPPで実現する、セキュリティ対策の最適解』, サイバーインテリジェンス　セキュリティマネジメントSummit 2025 Summer",
-    "url" : "https://events.nikkeibp.co.jp/event/2025/nxt0625se/",
-    "date" : "2025.06.26"
-  },
   {
     "id": 2,
     "title" : "言語カクテルとエンジニアの人生に触れる夜〜エンジニアからPMへの道のり〜",
@@ -83,6 +77,20 @@ const judge = [
 ]
 
 const presentations = [
+   {
+    "id": 4,
+    "title" : "ASM × CNAPPで実現する、セキュリティ対策の最適解～攻撃者視点と内部可視化でみる実践的クラウド防御～",
+    "url" : "https://www.serverworks.co.jp/event/20250821_security_seminar.html",
+    "media_name" : "Cloudbase共催 セキュリティの現場から ～クラウド脅威による被害のリアルとASM×CNAPPによる対策入門、そして運用事例～",
+    "date" : "2025.08.21"
+  },
+   {
+    "id": 3,
+    "title" : "ASM×CNAPPで実現する、セキュリティ対策の最適解",
+    "url" : "https://events.nikkeibp.co.jp/event/2025/nxt0625se/",
+    "media_name" : "サイバーインテリジェンス　セキュリティマネジメントSummit 2025 Summer",
+    "date" : "2025.06.26"
+  },
   {
     "id": 2,
     "title" : "Android/iOSアプリを協調開発するチーム 〜スクラム開発の実践とその先へ〜",
