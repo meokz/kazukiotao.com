@@ -99,6 +99,34 @@ const webradio = [
 
 const web_personal = [
   {
+    "id": 15,
+    "title" : "「作って終わり」の SBOM にしたくないなら ～ エージェントレスで SSVC トリアージ、Cloudbase SBOM で始める脆弱性管理",
+    "url" : "https://scan.netsecurity.ne.jp/article/2025/09/18/53642.html",
+    "media_name" : "ITmedia NEWS",
+    "date" : "2025.09.18"
+},
+  {
+    "id": 14,
+    "title" : "シャドーITの発見から始まるリスク管理の新方程式",
+    "url" : "https://special.nikkeibp.co.jp/atclh/NXT/25/cloudbase0917/",
+    "media_name" : "日経クロステック Special",
+    "date" : "2025.09.18"
+},
+  {
+    "id": 13,
+    "title" : "ASM×CNAPPの組み合わせで高度なクラウドセキュリティーを",
+    "url" : "https://special.nikkeibp.co.jp/atclh/NXT/25/security_management_summit0818/p14/",
+    "media_name" : "日経クロステック Special",
+    "date" : "2025.08.19"
+},
+  {
+    "id": 12,
+    "title" : "「クラウドは人類には早過ぎた」　辻伸弘氏×気鋭エンジニアが語る、リスクの本質",
+    "url" : "https://www.itmedia.co.jp/news/articles/2507/15/news003.html",
+    "media_name" : "ITmedia NEWS",
+    "date" : "2025.07.15"
+},
+  {
     "id": 11,
     "title" : "「オンプレ規定をクラウドに適用」はもうやめませんか　「実行責任」「説明責任」を押さえた“正しい運用”のポイント　識者に聞く",
     "url" : "https://www.itmedia.co.jp/news/articles/2506/04/news001.html",
