@@ -78,6 +78,13 @@ const judge = [
 
 const presentations = [
    {
+    "id": 5,
+    "title" : "SBOMではじめる脆弱性管理入門～複雑化するソフトウェアサプライチェーンに対応する第一歩～",
+    "url" : "https://events.nikkeibp.co.jp/event/2025/nxt1113se/",
+    "media_name" : "サイバーインテリジェンス　セキュリティマネジメント Summit 2025 Winter",
+    "date" : "2025.11.14"
+  },
+   {
     "id": 4,
     "title" : "ASM × CNAPPで実現する、セキュリティ対策の最適解～攻撃者視点と内部可視化でみる実践的クラウド防御～",
     "url" : "https://www.serverworks.co.jp/event/20250821_security_seminar.html",
@@ -88,7 +95,7 @@ const presentations = [
     "id": 3,
     "title" : "ASM×CNAPPで実現する、セキュリティ対策の最適解",
     "url" : "https://events.nikkeibp.co.jp/event/2025/nxt0625se/",
-    "media_name" : "サイバーインテリジェンス　セキュリティマネジメントSummit 2025 Summer",
+    "media_name" : "サイバーインテリジェンス　セキュリティマネジメント Summit 2025 Summer",
     "date" : "2025.06.26"
   },
   {
