@@ -78,11 +78,18 @@ const judge = [
 
 const presentations = [
    {
-    "id": 5,
+    "id": 6,
     "title" : "SBOMではじめる脆弱性管理入門～複雑化するソフトウェアサプライチェーンに対応する第一歩～",
     "url" : "https://events.nikkeibp.co.jp/event/2025/nxt1113se/",
     "media_name" : "サイバーインテリジェンス　セキュリティマネジメント Summit 2025 Winter",
     "date" : "2025.11.14"
+  },
+   {
+    "id": 5,
+    "title" : "エージェントレスSBOMスキャンではじめる脆弱性管理 ―Cloudbaseで実現するSBOM管理・SSVCトリアージ―",
+    "url" : "https://f2ff.jp/introduction/11192?event_id=secd-2025-02-tokyo",
+    "media_name" : "Security Days Fall 2025 Tokyo",
+    "date" : "2025.10.23"
   },
    {
     "id": 4,

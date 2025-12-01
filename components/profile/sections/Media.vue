@@ -99,6 +99,13 @@ const webradio = [
 
 const web_personal = [
   {
+    "id": 16,
+    "title" : "エンジニアにも衝撃が走ったHubbleのプロダクト体験！営業における契約業務工数を1/3削減",
+    "url" : "https://hubble-docs.com/cases/cloudbase",
+    "media_name" : "Hubble",
+    "date" : "2025.11.28"
+  },
+  {
     "id": 15,
     "title" : "「作って終わり」の SBOM にしたくないなら ～ エージェントレスで SSVC トリアージ、Cloudbase SBOM で始める脆弱性管理",
     "url" : "https://scan.netsecurity.ne.jp/article/2025/09/18/53642.html",
