@@ -9,7 +9,7 @@
 <style scoped>
 .btn-toggle {
   top: 50%;
-  margin: 0 7rem;
+  margin: 0 8rem;
   padding: 0;
   position: relative;
   border: none;

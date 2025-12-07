@@ -37,6 +37,7 @@
 <style>
 .container {
   margin-bottom: 10px;
+  overflow-x: hidden; /* 横スクロールを防ぐ */
 }
 
 .lang-button {
