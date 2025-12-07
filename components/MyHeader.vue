@@ -16,7 +16,6 @@
           <li><a href="/works">Project</a></li>
           <li><a href="/publication">Publications</a></li>
           <li><a href="http://meokz.hatenablog.com/" target="_blank">Blog</a></li>
-          <li><a href="/">Profile</a></li>
         </ul>
       </div>
     </div>

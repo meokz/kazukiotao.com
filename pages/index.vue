@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <!-- <button v-on:click="toggle">Japansese / English</button> -->
     <div class="row">
       <div class = "lang-button">
@@ -17,19 +17,19 @@
 
     <Career v-bind:isEnglish="isEnglish"/>
 
-    <Achievement v-bind:isEnglish="isEnglish"/>
-
     <Event />
 
-    <Media />
+    <Media v-bind:isEnglish="isEnglish"/>
 
     <Publication v-bind:isEnglish="isEnglish"/>
+
+    <Achievement v-bind:isEnglish="isEnglish"/>
+
+    <Qualification />
 
     <Competitions v-bind:isEnglish="isEnglish"/>
 
     <Exhibition />
-
-    <Qualification />
 
     <!-- <TechnicalSkills /> -->
 
@@ -37,6 +37,9 @@
 </template>
 
 <style>
+.container {
+  margin-bottom: 10px;
+}
 
 .lang-button {
   padding: 10px 5px 0px 0px;
