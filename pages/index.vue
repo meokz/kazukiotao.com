@@ -19,8 +19,6 @@
 
     <Event />
 
-    <Media v-bind:isEnglish="isEnglish"/>
-
     <Publication v-bind:isEnglish="isEnglish"/>
 
     <Achievement v-bind:isEnglish="isEnglish"/>
@@ -79,7 +77,6 @@ import Link from '~/components/profile/sections/Link.vue'
 import Publication from '~/components/profile/sections/Publication.vue'
 import Exhibition from '~/components/profile/sections/Exhibition.vue'
 import Competitions from '~/components/profile/sections/Competitions.vue'
-import Media from '~/components/profile/sections/Media.vue'
 import TechnicalSkills from '~/components/profile/sections/TechnicalSkills.vue'
 import Interview from '~/components/profile/sections/Interview.vue'
 import Event from '~/components/profile/sections/Event.vue'
@@ -103,7 +100,6 @@ export default {
     Publication,
     Exhibition,
     Competitions,
-    Media,
     TechnicalSkills,
     Interview,
     Event,

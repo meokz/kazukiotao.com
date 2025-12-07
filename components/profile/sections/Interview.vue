@@ -4,8 +4,8 @@
     <div class="row">
       <InterviewItem v-for="item in interviews" v-bind:key="item.id" v-bind:item="item" />
     </div>
-    <p v-show="!isEnglish" align="right"><a href="#media">>>> 全ての記事</a></p>
-    <p v-show="isEnglish" align="right"><a href="#media">>>> All Media</a></p>
+    <p v-show="!isEnglish" align="right"><a href="/media">>>> 全ての記事</a></p>
+    <p v-show="isEnglish" align="right"><a href="/media">>>> All Media</a></p>
   </div>
 </template>
 
@@ -17,6 +17,15 @@
 import InterviewItem from '~/components/profile/InterviewItem.vue'
 
 const interviews = [
+  {
+    "id": 6,
+    "media": "ScanNetSecurity",
+    "media_icon": "https://scan.netsecurity.ne.jp/favicon.ico",
+    "title" : "夢を売るセキュリティプロダクト Cloudbase のタイムマシン経営戦略 ～ 大峠和基が出発するセキュリティ諸国漫遊の旅",
+    "url" : "https://scan.netsecurity.ne.jp/article/2025/11/26/54103.html",
+    "image_url" : "https://scan.netsecurity.ne.jp/imgs/p/hJtuSU37jUUtaOmDwCp9jp0KMwUhBQQDAgEA/50877.jpg",
+    "date" : "2025.11.26"
+  },
   {
     "id": 5,
     "media": "TechTrain",

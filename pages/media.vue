@@ -1,9 +1,17 @@
 <template>
-  <div>
-    <div class="media">
-      <a id="media"></a>
-      <h2 v-show="!isEnglish">Media (個人)</h2>
-      <h2 v-show="isEnglish">Media (Personal)</h2>
+  <div id="media">
+    <div class="row">
+      <div class="lang-button">
+        <LanguageButton
+          v-bind:flag="isEnglish"
+          @on-toggle-change="onIsEnglishChange"
+        />
+      </div>
+    </div>
+
+    <div class="media-content">
+      <h2 v-show="!isEnglish">Media - 個人</h2>
+      <h2 v-show="isEnglish">Media - Personal</h2>
       <div>
         <h3>TV</h3>
         <ol>
@@ -13,10 +21,29 @@
             v-bind:item="item"
           />
         </ol>
-        <h3>Web</h3>
+        <h3 v-show="!isEnglish">Web - インタビュー</h3>
+        <h3 v-show="isEnglish">Web - Interview</h3>
         <ol>
           <MediaItem
             v-for="item in web_personal"
+            v-bind:key="item.id"
+            v-bind:item="item"
+          />
+        </ol>
+        <h3 v-show="!isEnglish">Web - 対談</h3>
+        <h3 v-show="isEnglish">Web - Group Interview</h3>
+        <ol>
+          <MediaItem
+            v-for="item in web_group_interview"
+            v-bind:key="item.id"
+            v-bind:item="item"
+          />
+        </ol>
+        <h3 v-show="!isEnglish">Web - その他</h3>
+        <h3 v-show="isEnglish">Web - Other</h3>
+        <ol>
+          <MediaItem
+            v-for="item in other"
             v-bind:key="item.id"
             v-bind:item="item"
           />
@@ -37,20 +64,13 @@
             v-bind:item="item"
           />
         </ol>
-        <h3>Web (Other)</h3>
-        <ol>
-          <MediaItem
-            v-for="item in other"
-            v-bind:key="item.id"
-            v-bind:item="item"
-          />
-        </ol>
       </div>
     </div>
-    <div class="media-project">
+
+    <div class="media-content">
       <a id="media-project"></a>
-      <h2 v-show="!isEnglish">Media (プロジェクト)</h2>
-      <h2 v-show="isEnglish">Media (Project)</h2>
+      <h2 v-show="!isEnglish">Media - プロジェクト</h2>
+      <h2 v-show="isEnglish">Media - Project</h2>
       <div>
         <h3>TV</h3>
         <ol>
@@ -60,7 +80,8 @@
             v-bind:item="item"
           />
         </ol>
-        <h3>Web (Interview)</h3>
+        <h3 v-show="!isEnglish">Web - 製品紹介</h3>
+        <h3 v-show="isEnglish">Web - Product Introduction</h3>
         <ol>
           <MediaItem
             v-for="item in web_project_interview"
@@ -68,7 +89,8 @@
             v-bind:item="item"
           />
         </ol>
-        <h3>Web (Project Only)</h3>
+        <h3 v-show="!isEnglish">Web - 研究プロジェクト</h3>
+        <h3 v-show="isEnglish">Web - Research Project</h3>
         <ol>
           <MediaItem
             v-for="item in web"
@@ -82,17 +104,43 @@
 </template>
 
 <style scoped>
-h3 {
-  padding-left: 5%;
+.media-content {
+  margin-bottom: 5rem;
 }
 
-ol {
-  padding-left: 7rem;
-  padding-right: 1rem;
+.lang-button {
+  padding: 10px 5px 0px 0px;
+  float: right;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 0px 10px 10px 10px;
+  text-align: center;
+  border-bottom: solid 1px #d2d2d2;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
 }
 </style>
 
 <script>
+import Meta from "~/assets/Meta.js";
+import LanguageButton from "~/components/LanguageButton.vue";
 import MediaItem from "~/components/profile/MediaItem.vue";
 
 const radio = [
@@ -145,22 +193,6 @@ const webradio = [
 
 const web_personal = [
   {
-    id: 12,
-    title:
-      "「クラウドは人類には早過ぎた」　辻伸弘氏×気鋭エンジニアが語る、リスクの本質",
-    url: "https://www.itmedia.co.jp/news/articles/2507/15/news003.html",
-    media_name: "ITmedia NEWS",
-    date: "2025.07.15",
-  },
-  {
-    id: 11,
-    title:
-      "「オンプレ規定をクラウドに適用」はもうやめませんか　「実行責任」「説明責任」を押さえた“正しい運用”のポイント　識者に聞く",
-    url: "https://www.itmedia.co.jp/news/articles/2506/04/news001.html",
-    media_name: "ITmedia NEWS",
-    date: "2025.06.06",
-  },
-  {
     id: 9,
     title:
       "セキュリティ業界の革新を目指す 28 歳の若者 ～ Cloudbase PdM 大峠 和基",
@@ -176,20 +208,12 @@ const web_personal = [
     date: "2025.01.14",
   },
   {
-    id: 7,
-    title:
-      "このPdMがすごい！【第2弾】──時代をつくるエースPdMと、エースを束ねるトップ層のマネジメントに迫る",
-    url: "https://www.fastgrow.jp/articles/product-managers-02",
-    media_name: "FastGrow",
-    date: "2024.09.05",
-  },
-  {
     id: 6,
     title:
-      "【トレンド研究】大企業の8割が導入するパブリッククラウド。その裏に眠る巨大市場・クラウドセキュリティとは",
-    url: "https://www.fastgrow.jp/articles/cloud-security",
-    media_name: "FastGlow",
-    date: "2024.05.16",
+      "みんな知ってる「Zoomの橋」じゃん！アメリカで「いつもの背景」を探したらバーチャルとリアルが“完全に一致”した",
+    url: "https://www.buzzfeed.com/jp/harunayamazaki/zoom-bridge",
+    media_name: "BuzzFeed",
+    date: "2023.06.21",
   },
   {
     id: 5,
@@ -231,6 +255,60 @@ const web_personal = [
     date: "2019.01.29",
   },
 ];
+
+const web_group_interview = [
+  {
+    id: 16,
+    title:
+      "エンジニアにも衝撃が走ったHubbleのプロダクト体験！営業における契約業務工数を1/3削減",
+    url: "https://hubble-docs.com/cases/cloudbase",
+    media_name: "Hubble",
+    date: "2025.11.28",
+  },
+  {
+    id: 12,
+    title:
+      "「クラウドは人類には早過ぎた」　辻伸弘氏×気鋭エンジニアが語る、リスクの本質",
+    url: "https://www.itmedia.co.jp/news/articles/2507/15/news003.html",
+    media_name: "ITmedia NEWS",
+    date: "2025.07.15",
+  },
+  {
+    id: 11,
+    title:
+      "「オンプレ規定をクラウドに適用」はもうやめませんか　「実行責任」「説明責任」を押さえた“正しい運用”のポイント　識者に聞く",
+    url: "https://www.itmedia.co.jp/news/articles/2506/04/news001.html",
+    media_name: "ITmedia NEWS",
+    date: "2025.06.06",
+  },
+  {
+    id: 6,
+    title:
+      "【トレンド研究】大企業の8割が導入するパブリッククラウド。その裏に眠る巨大市場・クラウドセキュリティとは",
+    url: "https://www.fastgrow.jp/articles/cloud-security",
+    media_name: "FastGlow",
+    date: "2024.05.16",
+  },
+  {
+    id: 1,
+    title:
+      "「パブクラ」×「セキュリティ」は技術者の体幹──次代のエンジニア集団Cloudbaseに訊く、市場価値10xを成す“一挙両得”なキャリア",
+    url: "https://www.fastgrow.jp/articles/cloudbase-miyagawa-otao-iwai",
+    media_name: "FastGlow",
+    date: "2024.03.22",
+  },
+];
+
+const other = [
+  {
+    id: 7,
+    title:
+      "このPdMがすごい！【第2弾】──時代をつくるエースPdMと、エースを束ねるトップ層のマネジメントに迫る",
+    url: "https://www.fastgrow.jp/articles/product-managers-02",
+    media_name: "FastGrow",
+    date: "2024.09.05",
+  },
+]
 
 const web_project_interview = [
   {
@@ -380,43 +458,39 @@ const web = [
   },
 ];
 
-const other = [
-  {
-    id: 16,
-    title:
-      "エンジニアにも衝撃が走ったHubbleのプロダクト体験！営業における契約業務工数を1/3削減",
-    url: "https://hubble-docs.com/cases/cloudbase",
-    media_name: "Hubble",
-    date: "2025.11.28",
-  },
-  {
-    id: 1,
-    title:
-      "みんな知ってる「Zoomの橋」じゃん！アメリカで「いつもの背景」を探したらバーチャルとリアルが“完全に一致”した",
-    url: "https://www.buzzfeed.com/jp/harunayamazaki/zoom-bridge",
-    media_name: "BuzzFeed",
-    date: "2023.06.21",
-  },
-];
-
 export default {
+  mixins: [Meta],
+  layout: "base",
   components: {
+    LanguageButton,
     MediaItem,
   },
   data() {
     return {
+      isEnglish: false,
+      meta: {
+        title: "Media",
+        description: "Media | Kazuki Otao / 大峠和基",
+        type: "article",
+        url: "https://kazukiotao.com/media",
+        image: "https://kazukiotao.com/publication/img/mistflow.jpg",
+      },
       radio: radio,
       webradio: webradio,
       web_personal: web_personal,
       web: web,
       tv_personal: tv_personal,
       tv_project: tv_project,
+      web_group_interview,
       web_project_interview: web_project_interview,
-      other: other,
+      other,
     };
   },
-  props: [
-    'isEnglish'
-  ]
+  methods: {
+    onIsEnglishChange(flag) {
+      this.isEnglish = flag;
+    },
+  },
 };
 </script>
+
