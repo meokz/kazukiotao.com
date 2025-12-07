@@ -72,7 +72,8 @@
       <h2 v-show="!isEnglish">Media - プロジェクト</h2>
       <h2 v-show="isEnglish">Media - Project</h2>
       <div>
-        <h3>TV</h3>
+        <h3 v-show="!isEnglish">TV - 製品紹介</h3>
+        <h3 v-show="isEnglish">TV - Product Introduction</h3>
         <ol>
           <MediaItem
             v-for="item in tv_project"
@@ -193,6 +194,14 @@ const webradio = [
 
 const web_personal = [
   {
+    id: 10,
+    title:
+      "夢を売るセキュリティプロダクト Cloudbase のタイムマシン経営戦略 ～ 大峠和基が出発するセキュリティ諸国漫遊の旅",
+    url: "https://scan.netsecurity.ne.jp/article/2025/11/26/54103.html",
+    media_name: "ScanNetSecurity",
+    date: "2025.11.26",
+  },
+  {
     id: 9,
     title:
       "セキュリティ業界の革新を目指す 28 歳の若者 ～ Cloudbase PdM 大峠 和基",
@@ -227,7 +236,7 @@ const web_personal = [
     id: 4,
     title:
       "「その機能って本当に使うの？」落合陽一の弟子、高専出身の未踏エンジニアが見せるプロダクトへのこだわり。",
-    url: "https://and-engineer.com/articles/Xsn9YxEAACUAEB8b",
+    url: "https://tenshoku.mynavi.jp/engineer/guide/articles/Xsn9YxEAACUAEB8b",
     media_name: "アンドエンジニア",
     date: "2020.07.28",
   },
